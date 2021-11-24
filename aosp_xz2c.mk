@@ -7,10 +7,10 @@
 # Inherit from xz2c device
 $(call inherit-product, device/sony/xz2c/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_xz2c
+PRODUCT_NAME := aosp_xz2c
 PRODUCT_DEVICE := xz2c
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
